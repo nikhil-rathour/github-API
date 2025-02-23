@@ -1,0 +1,54 @@
+body {
+    background-color: #1e1e2f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+#card {
+    width: 400px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #0077b6, #90e0ef);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    text-align: center;
+}
+
+#img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 4px solid white;
+    background-size: cover;
+    background-position: center;
+    margin: 10px auto;
+}
+
+#username, #repoList {
+    margin-top: 10px;
+}
+
+input, button {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin: 5px;
+}
+
+#fetchBtn {
+    background-color: #0077b6;
+    color: white;
+    cursor: pointer;
+}
+
+#repoList a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top: 5px;
+}
